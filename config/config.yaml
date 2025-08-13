@@ -1,0 +1,12 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir : artifacts/data_ingestion
+  SOURCE_URL : https://github.com/ayaz-125/Dataset1/raw/refs/heads/main/Air_quality_dataset.zip
+  local_data_path : artifacts/data_ingestion/data.zip
+  unzip_path : artifacts/data_ingestion
+
+data_validation:
+  root_dir: artifacts/data_validation
+  data_source: artifacts/data_ingestion/final_dataset.csv
+  STATUS_FILE : artifacts/data_validation/status.txt

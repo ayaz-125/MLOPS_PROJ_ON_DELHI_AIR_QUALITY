@@ -1,0 +1,16 @@
+COLUMNS:
+  Date: int64
+  Month: int64
+  Year: int64
+  Holidays_Count: int64
+  Days: int64
+  PM2.5: float64
+  PM10: float64
+  NO2: float64
+  SO2: float64
+  CO: float64
+  Ozone: float64
+  AQI: int64
+
+TARGET_COLUMN:
+  name: AQI
